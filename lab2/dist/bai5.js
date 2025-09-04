@@ -8,4 +8,4 @@ function simulateTask(time) {
         }, time);
     });
 }
-simulateTask(2000).then(message => console.log(message));
+simulateTask(1000).then(message => console.log(message));
